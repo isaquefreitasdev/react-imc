@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap');
+body{
+  background-color: #2776BF;
+}
+main{
+  font-family: 'Teko', sans-serif;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  
+  
+}
+.container{
+  background-color: white;
+  text-align: center;
+  
+  border-radius: 10px;
+  height: 55vh;
+  width: 400px;
+  margin-top: 100px;
+
+}
+.inputsFields{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.inputsFields{
+  padding-left: 10px;
+}
+input{
+  border-color:rgba(0, 0, 0, 0.092);
+  background-color: #fb838340;
+  height: 50px;
+  width: 300px;
+  
+
+  border-radius: 10px;
+}
+button{
+  border-radius: 10px;
+  border-color: none;
+  border: none;
+  background-color: blue;
+  width: 200px;
+  height: 35px;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.2rem;
+}
