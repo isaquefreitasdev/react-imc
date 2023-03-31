@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import InputField from "./InputField";
 
 function Calc() {
   const [weight, setWeight] = useState('');
@@ -64,13 +65,8 @@ function Calc() {
       <main>
         <div className="container">
           <h1>Calculadora Imc</h1>
-          <div className="inputsFields">
-            <input value={weight} onChange={handleValueWeight} placeholder="Digite seu peso(kg)" id="field1" type="text" />
-            <input value={height} onChange={handleValueHeight} placeholder="Digite sua altura(m)" type="text" name="" id="field2" />
-            <button onClick={ValueCalculator} id="calculatorButton">Calcular</button>
-            {valueFinal && <p>IMC: {valueFinal}</p> }
-            {imcStatus && <p>Status: {imcStatus}</p>}
-          </div>
+          <InputField imcStatus={imcStatus} ValueCalculator={ValueCalculator} handleValueHeight={handleValueHeight} height={height} weight={weight} handleValueWeight={handleValueWeight} valueFinal={valueFinal}/>
+          
         </div>
       </main>
     </>
