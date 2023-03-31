@@ -57,7 +57,11 @@ button{
 }
 @media screen and (max-width: 768px) {
   .container {
-    width: 90%; /* reduzimos a largura do container para que caiba em telas menores */
-    height: 80%; /* aumentamos a altura do container para que haja mais espaço para o conteúdo */
+    width: 90%; 
+    height: 80%; 
   }
 }
+#res,#resNum{
+    font-size: 1.3rem;
+
+ }
