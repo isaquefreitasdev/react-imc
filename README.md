@@ -22,5 +22,8 @@
 <li>Css
 <li>Figma
 
-<h5>Observação</h5>
-<p>Ainda falta separar os arquivos em componente</h5>
+<h5>Desenvolvimento</h5>
+<p>Trabalhei com hooks, usando useState, props e componentes</h5>
+
+<h6>Acesse o projeto:</h6>
+<a href="https://imccalculadora01.netlify.app/">Acesse aqui</a>
