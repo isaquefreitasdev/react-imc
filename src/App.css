@@ -18,7 +18,7 @@ main{
   text-align: center;
   
   border-radius: 10px;
-  height: 55vh;
+  height: 400px;
   width: 400px;
   margin-top: 100px;
 
@@ -54,4 +54,10 @@ button{
   color: white;
   font-family: 'Teko', sans-serif;
   font-size: 1.2rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%; /* reduzimos a largura do container para que caiba em telas menores */
+    height: 80%; /* aumentamos a altura do container para que haja mais espaço para o conteúdo */
+  }
 }
